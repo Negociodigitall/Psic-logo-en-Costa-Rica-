@@ -597,3 +597,22 @@ nav ul::-webkit-scrollbar {
    margin-left: auto;
   margin-right: auto;
 }
+a[href*="google.com/maps"] {
+  background: #7b2c2c !important;  /* rojo caoba */
+  color: #fff !important;
+
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 18px !important;
+  border-radius: 25px !important;
+
+  text-decoration: none !important;
+
+  opacity: 1 !important;
+  visibility: visible !important;
+  font-size: 14px !important;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2) !important;
+}
