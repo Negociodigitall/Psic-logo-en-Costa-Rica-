@@ -486,11 +486,28 @@ header {
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 nav ul {
-  display: flex;
+   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
-  flex-wrap: wrap; 
+  gap: 12px;
   list-style: none;
   padding: 0;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  nav ul {
+    flex-wrap: nowrap; 
+    overflow-x: auto;  
+    justify-content: flex-start;
+    padding: 10px;
+  }
+
+  nav ul li {
+    flex: 0 0 auto; 
+  }
+
+  nav a {
+    font-size: 14px;
+    white-space: nowrap; 
+  }
 }
