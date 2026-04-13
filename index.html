@@ -109,24 +109,25 @@ con un enfoque cercano y personalizado.
 </div>
 
 
-<section id="cita">
-  <h2>Agendar Cita</h2>
-  <section class="scroll-anim"></section>
+<section id="agendar">
+  <h2>Agendar cita</h2>
 
-  <form>
-    <input type="text" placeholder="Nombre completo" required>
-    <input type="date" required>
-    <input type="time" required>
+  <form onsubmit="enviarWhatsApp(event)">
+    <input type="text" id="nombre" placeholder="Nombre completo" required>
 
-    <select required>
-      <option value="">Seleccione servicio</option>
+    <input type="date" id="dia" required>
+
+    <input type="time" id="hora" required>
+
+    <select id="servicio" required>
+      <option value="">Seleccione un servicio</option>
       <option>Psicoterapia</option>
-      <option>Colegios/Escuelas</option>
-      <option>Pareja/Familia</option>
+      <option>Colegios / Escuelas</option>
+      <option>Pareja y Familia</option>
       <option>Empresas</option>
     </select>
 
-    <button type="submit">Agendar</button>
+    <button type="submit">Agendar cita</button>
   </form>
 </section>
 
