@@ -47,3 +47,23 @@ window.onload = function() {
 function instagram() {
   window.open("https://www.instagram.com/", "_blank");
 }
+function enviarWhatsApp(e) {
+  e.preventDefault();
+
+  let nombre = document.getElementById("nombre").value;
+  let dia = document.getElementById("dia").value;
+  let hora = document.getElementById("hora").value;
+  let servicio = document.getElementById("servicio").value;
+
+  let mensaje = `Hola, quiero agendar una cita en PsiquisMed.%0A
+Nombre: ${nombre}%0A
+Día: ${dia}%0A
+Hora: ${hora}%0A
+Servicio: ${servicio}`;
+
+  let telefono = "50685713009";
+
+  let url = `https://wa.me/${telefono}?text=${mensaje}`;
+
+  window.open(url, "_blank");
+}
