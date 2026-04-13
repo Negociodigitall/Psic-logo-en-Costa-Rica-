@@ -537,13 +537,20 @@ nav ul::-webkit-scrollbar {
     #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5) !important;
   }
 .btn {
-  display: inline-block;
-  padding: 10px 20px;
-  border-radius: 25px;
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-  transition: 0.3s;
+  background-color: #7b2c2c !important; /* rojo caoba */
+  color: white !important;
+
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 18px !important;
+  border-radius: 25px !important;
+
+  text-decoration: none !important;
+
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 .insta-btn {
