@@ -10,7 +10,7 @@ function ubicacion() {
   window.open("https://www.google.com/maps?q=WWJX+3HJ,San+Pedro", "_blank");
 }
 
-// Mostrar info servicios
+
 function toggleInfo(card) {
   const extra = card.querySelector(".extra");
   extra.style.display = extra.style.display === "block" ? "none" : "block";
@@ -33,9 +33,7 @@ window.addEventListener("scroll", () => {
     }
   });
 });
-function instagram() {
-  window.open("https://www.instagram.com/", "_blank");
-}
+
 window.onload = function() {
   let index = 0;
   const images = document.querySelectorAll(".carousel img");
