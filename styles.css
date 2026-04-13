@@ -333,14 +333,16 @@ h2::after {
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 .social-float {
-  position: fixed;
+   position: fixed;
   bottom: 20px;
   right: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  z-index: 999;
-  transition: 0.3s;
+  background: linear-gradient(45deg, #833AB4, #FD1D1D, #FCAF45);
+  color: white;
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 1000;
 }
 .social-btn:hover {
   transform: scale(1.1) translateY(-5px);
