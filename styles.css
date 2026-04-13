@@ -512,3 +512,18 @@ nav ul {
     white-space: nowrap; 
   }
 }
+.btn-float.instagram {
+  width: 55px !important;
+  height: 55px !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  border-radius: 50% !important;
+
+  background: #E1306C !important; 
+  color: white !important;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2) !important;
+}
