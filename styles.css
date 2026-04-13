@@ -470,8 +470,13 @@ header {
   box-shadow: 0 10px 25px rgba(123, 44, 44, 0.6);
 }
 .insta-btn {
+   display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
   background: linear-gradient(45deg, #833AB4, #FD1D1D, #FCAF45);
   color: white;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
 .insta-btn:hover {
