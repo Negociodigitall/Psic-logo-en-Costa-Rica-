@@ -488,13 +488,23 @@ header {
   box-shadow: 0 10px 25px rgba(123, 44, 44, 0.6);
 }
 nav ul {
-   display: flex;
+    display: flex;
   justify-content: center;
   align-items: center;
-  gap: 12px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+
+  gap: 8px; 
+  flex-wrap: nowrap; 
+  overflow-x: auto;  
+
+  padding: 5px;
+  scrollbar-width: none;
+}
+nav ul li a {
+  font-size: 13px; /* 🔥 más pequeño */
+  white-space: nowrap;
+}
+nav ul::-webkit-scrollbar {
+  display: none;
 }
 @media (max-width: 768px) {
   nav ul {
