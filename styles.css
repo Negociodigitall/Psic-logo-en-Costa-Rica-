@@ -552,3 +552,23 @@ nav ul {
   transform: scale(1.05);
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+#agendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  padding: 40px 20px;
+}
+#agendar form {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 450px;
+
+  margin-top: 20px; /* 🔥 esto lo baja debajo del título */
+  gap: 12px;
+   margin-left: auto;
+  margin-right: auto;
+}
