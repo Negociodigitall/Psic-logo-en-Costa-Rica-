@@ -319,13 +319,13 @@ h2::after {
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 .social-float {
-  position: fixed;
+   position: fixed;
   bottom: 20px;
   right: 20px;
 
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 
   z-index: 1000;
 }
@@ -338,8 +338,8 @@ h2::after {
   justify-content: center;
   }
 .btn-float {
-  width: 50px;
-  height: 50px;
+ width: 55px;
+  height: 55px;
 
   display: flex;
   align-items: center;
@@ -347,11 +347,12 @@ h2::after {
 
   border-radius: 50%;
   color: white;
-  font-size: 22px;
-  text-decoration: none;
+  font-size: 24px;
 
+  text-decoration: none;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-  transition: 0.3s;
+
+  transition: all 0.3s ease;
   }
   .btn-float:hover {
   transform: scale(1.1);
@@ -382,7 +383,8 @@ h2::after {
 
 
 .instagram {
-  background: linear-gradient(45deg, #833AB4, #FD1D1D, #FCAF45);
+  background: radial-gradient(circle at 30% 30%, 
+    #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
 }
 .social-btn {
   animation: floatIn 0.6s ease;
