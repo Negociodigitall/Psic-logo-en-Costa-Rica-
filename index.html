@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Atención psicológica profesional en Costa Rica. Psicología clínica, intervención en crisis y terapia en San José, Heredia y Alajuela.">
+  <title>Psicólogo en Costa Rica | PsiquisMed</title>
+  <link rel="stylesheet" href="styles2.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="main-container">
+  
+</div>
+
+<header>
+  <div class="logo-container">
+  <img src="WhatsApp Image 2026-04-12 at 6.05.20 PM.png" alt="Logo PsiquisMed">
+  <span>PsiquisMed</span>
+</div>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#cita">Cita</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section id="inicio" class="hero fade-in">
+  <h1>¡Su salud mental es primero!</h1>
+  <p>Atención profesional y personalizada</p>
+
+  <div class="botones">
+  <button onclick="llamar()"><i class="fa-solid fa-phone"></i> Llamar</button>
+  <button onclick="whatsapp()"><i class="fa-brands fa-whatsapp"></i> WhatsApp</button>
+  <button class="insta-btn" onclick="instagram()">
+    <i class="fa-brands fa-instagram"></i> Síguenos
+  </button>
+</div>
+</section>
+<div class="carousel"></div>
+
+<!-- SERVICIOS -->
+<section id="servicios">
+  <h2>Servicios</h2>
+  <section class="scroll-anim"></section>
+
+  <div class="grid">
+
+    <div class="card" onclick="toggleInfo(this)">
+      <h3>Psicoterapia</h3>
+      <p class="extra">
+        Atención individual para ansiedad, depresión, estrés, dependencia emocional y estrés postraumático. 
+        Se trabaja en profundidad cada caso con enfoque personalizado para mejorar la calidad de vida del paciente.
+      </p>
+    </div>
+
+    <div class="card" onclick="toggleInfo(this)">
+      <h3>Colegios y Escuelas</h3>
+      <p class="extra">
+        Intervenciones en dificultades de aprendizaje, orientación profesional, y programas contra el bullying 
+        y el estrés docente mediante talleres y acompañamiento.
+      </p>
+    </div>
+
+    <div class="card" onclick="toggleInfo(this)">
+      <h3>Pareja y Familia</h3>
+      <p class="extra">
+        Terapia enfocada en conflictos de pareja, divorcio, infidelidad y procesos de duelo, promoviendo 
+        la comunicación asertiva y el bienestar emocional.
+      </p>
+    </div>
+
+    <div class="card" onclick="toggleInfo(this)">
+      <h3>Empresas</h3>
+      <p class="extra">
+        Evaluación de clima laboral, liderazgo, resolución de conflictos, y capacitaciones en habilidades sociales 
+        y manejo del estrés en el entorno laboral.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- NOSOTROS -->
+<section id="nosotros">
+  <h2>Nosotros</h2>
+  <section class="scroll-anim"></section>
+  <p>
+   <p>
+En PsiquisMed ofrecemos atención psicológica profesional en Costa Rica, 
+brindando apoyo en psicología clínica, intervención en crisis y situaciones que afectan la salud mental, 
+con un enfoque cercano y personalizado.
+</p>
+  </p>
+  <p>
+    Buscamos consolidarnos como una clínica que realmente impacte la calidad de vida de quienes nos visitan,
+    ofreciendo acompañamiento en momentos difíciles como el estrés, el duelo, conflictos familiares o personales,
+    siempre con un enfoque humano y profesional.
+  </p>
+</section>
+
+   <div class="imagenes">
+  <img src="WhatsApp Image 2026-04-12 at 7.26.30 PM.jpeg">
+  <img src="WhatsApp Image 2026-04-12 at 7.26.49 PM.jpeg">
+  <img src="WhatsApp Image 2026-04-12 at 7.27.00 PM.jpeg">
+</div>
+
+<!-- CITA -->
+<section id="cita">
+  <h2>Agendar Cita</h2>
+  <section class="scroll-anim"></section>
+
+  <form>
+    <input type="text" placeholder="Nombre completo" required>
+    <input type="date" required>
+    <input type="time" required>
+
+    <select required>
+      <option value="">Seleccione servicio</option>
+      <option>Psicoterapia</option>
+      <option>Colegios/Escuelas</option>
+      <option>Pareja/Familia</option>
+      <option>Empresas</option>
+    </select>
+
+    <button type="submit">Agendar</button>
+  </form>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <h2>Contacto</h2>
+  <section class="scroll-anim"></section>
+
+ <p>📍 San Pedro, Montes de Oca, San José, Costa Rica</p>
+  <p>📞 8571 3009</p>
+
+  <div class="botones">
+    <button onclick="llamar()"><i class="fa-solid fa-phone"></i> Llamar</button>
+<button onclick="whatsapp()"><i class="fa-brands fa-whatsapp"></i> WhatsApp</button>
+<button onclick="ubicacion()"><i class="fa-solid fa-location-dot"></i> Cómo llegar</button>
+  </div>
+
+  <iframe src="https://www.google.com/maps?q=WWJX+3HJ,San+Pedro&output=embed"></iframe>
+</section>
+
+<footer>
+  <p>Clínica PsiquisMed</p>
+</footer>
+
+<script src="script2.js"></script>
+<div class="social-float">
+
+  <div class="social-btn whatsapp" onclick="whatsapp()">
+    <i class="fa-brands fa-whatsapp"></i>
+  </div>
+
+  <div class="social-btn instagram" onclick="instagram()">
+    <i class="fa-brands fa-instagram"></i>
+  </div>
+
+</div>
+</body>
+</html>
