@@ -383,7 +383,8 @@ h2::after {
 
 
 .instagram {
-  background-color: red
+ radial-gradient(circle at 30% 30%, 
+    #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5) !important;
   }
     
 .social-btn {
