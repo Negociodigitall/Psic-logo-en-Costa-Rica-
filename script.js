@@ -67,3 +67,28 @@ Servicio: ${servicio}`;
 
   window.open(url, "_blank");
 }
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("formCita");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const nombre = document.getElementById("nombre").value;
+    const dia = document.getElementById("dia").value;
+    const hora = document.getElementById("hora").value;
+    const servicio = document.getElementById("servicio").value;
+
+    const telefono = "50685713009";
+
+    const mensaje = 
+`Hola, quiero agendar una cita en PsiquisMed.
+Nombre: ${nombre}
+Día: ${dia}
+Hora: ${hora}
+Servicio: ${servicio}`;
+
+    const url = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
+
+    window.open(url, "_blank");
+  });
+});
