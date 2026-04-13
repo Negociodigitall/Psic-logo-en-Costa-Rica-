@@ -47,8 +47,8 @@ window.onload = function() {
 function instagram() {
   window.open("https://www.instagram.com/", "_blank");
 }
-function enviarWhatsApp(e) {
-  e.preventDefault();
+function enviarWhatsApp(event) {
+  event.preventDefault();
 
   let nombre = document.getElementById("nombre").value;
   let dia = document.getElementById("dia").value;
