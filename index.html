@@ -112,12 +112,9 @@ con un enfoque cercano y personalizado.
 <section id="agendar">
   <h2>Agendar cita</h2>
 
-  <form onsubmit="enviarWhatsApp(event)">
-    
+  <form id="formCita">
     <input type="text" id="nombre" placeholder="Nombre completo" required>
-
     <input type="date" id="dia" required>
-
     <input type="time" id="hora" required>
 
     <select id="servicio" required>
@@ -129,7 +126,6 @@ con un enfoque cercano y personalizado.
     </select>
 
     <button type="submit">Agendar cita</button>
-
   </form>
 </section>
 
