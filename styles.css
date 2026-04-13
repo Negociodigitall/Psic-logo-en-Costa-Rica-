@@ -488,21 +488,21 @@ header {
   box-shadow: 0 10px 25px rgba(123, 44, 44, 0.6);
 }
 nav ul {
-   display: flex;
+    display: flex;
   justify-content: center;
   align-items: center;
 
-  gap: 6px;              
-  flex-wrap: nowrap;     
-  overflow-x: auto;     
+  gap: 3px;          
+  flex-wrap: nowrap; 
+  overflow-x: auto;  
 
-  padding: 5px;
+  padding: 3px;
   margin: 0;
   scrollbar-width: none;
 }
 nav ul li a {
-  font-size: 12px;      
-  padding: 6px 8px;     
+  font-size: 10px;   
+  padding: 4px 6px;  
   white-space: nowrap;
 }
 nav ul::-webkit-scrollbar {
