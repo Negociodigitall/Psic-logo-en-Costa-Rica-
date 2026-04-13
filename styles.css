@@ -533,3 +533,22 @@ nav ul {
   background-color:radial-gradient(circle at 30% 30%, 
     #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5) !important;
   }
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.insta-btn {
+  background: radial-gradient(circle at 30% 30%, 
+    #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+}
+
+.insta-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
